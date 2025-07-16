@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /*combinator adalah selector yang menggabungkan dua atau lebih selector*/
+    /*descendant selector adalah selector yang digunakan untuk memilih elemen yang merupakan keturunan dari elemen lain*/
+    /*descendant selector diawali dengan spasi*/
+    /*descendant selector digunakan untuk memilih elemen yang berada di dalam elemen lain*/ 
+    /*child selector adalah selector yang digunakan untuk memilih elemen yang merupakan anak dari elemen lain*/
+    /*child selector diawali dengan tanda >*/
+    /*adjecent sibling selector adalah selector yang digunakan untuk memilih elemen yang berada di sebelah elemen lain*/
+    /*adjecent sibling selector diawali dengan tanda +*/
+    /*general sibling selector adalah selector yang digunakan untuk memilih elemen yang berada di sebelah elemen lain dan memiliki parent yang sama*/
+    /*general sibling selector diawali dengan tanda ~*/
+
+    div > p {
+      color:red;
+    }
+  </style>
+</head>
+<body>
+    <div>
+      <article>
+        <h1>Descendant Selector</h1>
+        <p>Ini dipilih</p>
+        <p>Ini juga dipilih</p>
+        </article>
+        <p>ini dipilih</p>
+        <p>ini juga dipilih</p>
+    </div>
+    <p>Ini tidak dipilih</p>
+  </br>
+ <h1>Child Selector</h1> 
+</body>
+</html>
